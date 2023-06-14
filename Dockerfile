@@ -1,20 +1,19 @@
-# Use a base image with Node.js installed
-FROM node:14
+# Use a base image with a lightweight web server
+FROM nginx:alpine
 
-# Set the working directory in the container
-WORKDIR /app
+# Remove the default Nginx configuration
+RUN rm /etc/nginx/conf.d/default.conf
 
-# Copy the package.json and package-lock.json files to the container
-COPY package*.json ./
+# Copy the custom Nginx configuration file
+COPY nginx.conf /etc/nginx/conf.d/
 
-# Install dependencies
-RUN npm install
-
-# Copy the rest of the application code to the container
-COPY . .
+# Copy the application files to the appropriate directory
+COPY index.html /usr/share/nginx/html/
+COPY css/style.css /usr/share/nginx/html/css/
+COPY js/main.js /usr/share/nginx/html/js/
 
 # Expose the port on which the application will run
-EXPOSE 3000
+EXPOSE 80
 
-# Set the command to start the application
-CMD ["npm", "start"]
+# Start the Nginx web server
+CMD ["nginx", "-g", "daemon off;"]
