@@ -1,19 +1,14 @@
-# Use a base image with a lightweight web server
-FROM nginx:alpine
+# Use an official Nginx runtime as a parent image
+FROM nginx:stable
 
-# Remove the default Nginx configuration
-RUN rm /etc/nginx/conf.d/default.conf
-
-# Copy the custom Nginx configuration file
-COPY nginx.conf /etc/nginx/conf.d/
-
-# Copy the application files to the appropriate directory
+# Copy the HTML, CSS, and JavaScript files into the container
 COPY index.html /usr/share/nginx/html/
-COPY css/style.css /usr/share/nginx/html/css/
-COPY js/main.js /usr/share/nginx/html/js/
+COPY index.js /usr/share/nginx/html/
+COPY index.css /usr/share/nginx/html/
 
-# Expose the port on which the application will run
-EXPOSE 80
 
-# Start the Nginx web server
+# Expose port 80 for the Nginx server
+EXPOSE 9090
+
+# Start Nginx when the container starts
 CMD ["nginx", "-g", "daemon off;"]
