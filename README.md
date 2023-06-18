@@ -78,6 +78,9 @@ Deployment link: http://netflix-clone-bhoomika.s3-website-us-east-1.amazonaws.co
 
 ![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/4973dc5c-343a-48a4-91ec-da136f532e1a)
 
+![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/c39d3957-2d78-4133-9ef1-9e41446c3482)
+
+
 ![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/9e876404-8bd0-4bc6-a0a8-95a740838db9)
 
 
