@@ -2,7 +2,42 @@
 # Netflix-Clone
 This is the core code from scratch to clone the landing page of Netflix using **HTML, CSS and JavaScript.**
 
+
 ## 📸 Screenshots
+1.) Deployment using the Third Party app i.e VERCEL
+![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/14f229c1-081c-4245-87b1-92d4e5cf280e)
+
+ 
+Deployment Link: https://netflix-clone-lime-sigma.vercel.app/
+
+2.) Deployment on AWS Cloud using the S3 buckets
+![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/26f4a52a-46b0-44bf-ba15-0b10db52a0cc)
+
+![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/ab4d339d-ca99-47d6-aff3-307c6e9f109d)
+
+![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/949bafde-d411-4d6a-8266-14614a54ad18)
+
+![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/a50693b5-83e9-419f-93f6-29fc902a0cac)
+
+![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/b9f1cdf6-a0fb-4e6a-a8f6-9478fbc2d13b)
+
+![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/31ff0ac3-4ca4-4377-9187-f0851b1690bc)
+
+![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/370921ae-34d7-410a-aff2-ad8a2f6eb772)
+
+Deployment link: http://netflix-clone-bhoomika.s3-website-us-east-1.amazonaws.com/
+
+3.) Deployment using Jenkins and Docker in the Ubuntu Virtual Machine using the build and run commands
+•	Uploaded the files on the machine and created the Dockerfile file for the application.
+
+
+
+
+
+
+
+
+ 
 
 
 
