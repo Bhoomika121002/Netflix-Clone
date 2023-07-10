@@ -40,7 +40,7 @@ Deployment link: http://netflix-clone-bhoomika.s3-website-us-east-1.amazonaws.co
 ![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/68f8f434-8bc4-4c44-9f39-5c4eb148897b)
 
 
-4.) Automate the building, testing, and deployment process of a web application using Jenkins and GitHub. The Jenkins pipeline, triggered automatically by GitHub webhook integration, will include stages such as building, testing, and deploying the application. Additionally, it will incorporate features like notifications and alerts to notify about failed builds or deployments. The pipeline will also involve running acceptance tests and deploying to a staging environment, followed by deploying to production only if all tests pass. The project utilizes Jenkins' declarative syntax for streamlining the deployment process efficiently.
+4.) Automate the building, testing, and deployment process of a web application using Jenkins, Docker & GitHub. The Jenkins pipeline, triggered automatically by GitHub webhook integration, will include stages such as building, testing, and deploying the application. Additionally, it will incorporate features like notifications and alerts to notify about failed builds or deployments. The pipeline will also involve running acceptance tests and deploying to a staging environment, followed by deploying to production only if all tests pass. The project utilizes Jenkins' declarative syntax for streamlining the deployment process efficiently.
 
 ![image](https://github.com/Bhoomika121002/Netflix-Clone/assets/78655015/311ee125-df12-4342-ab77-cf9f892ed178)
  
